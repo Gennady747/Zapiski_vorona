@@ -10,7 +10,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = "-1003423306350"
 
 # ТЕСТОВЫЙ РЕЖИМ
-TEST_MODE = "on"
+TEST_MODE = "off"
 TEST_INTERVAL_SECONDS = 60
 
 # ====================== ХЭШТЕГИ И ССЫЛКИ ======================
