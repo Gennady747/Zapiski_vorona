@@ -390,8 +390,8 @@ def get_dark_image():
 
 def main():
     print("=" * 70)
-    print("🤖 Бот «Записки Чумного Доктора» — только твои CORE_MESSAGES")
-    print(f"Количество постов: {len(CORE_MESSAGES)}")
+    print("🤖 Бот «Записки Чумного Доктора» — только твои посты")
+    print(f"Загружено постов: {len(CORE_MESSAGES)}")
     print("=" * 70)
 
     count = 0
