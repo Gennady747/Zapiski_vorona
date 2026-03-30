@@ -336,7 +336,7 @@ CORE_MESSAGES = [
     "Ты всё ещё прячешь свои шрамы? Покажи их. Шрамы — это доказательство, что ты прошёл через огонь и вышел сильнее."
 ]
 
-EMOJIS = ["🎭", "👁️", "⏳", "💀", "🖤", "⚰️", "🔪", "🌑", "🩸", "🐦‍⬛"]
+EMOJIS = ["🎭", "👁️", "⏳", "♟️", "🖤", "⚰️", "🔪", "🌑", "🩸", "🐦‍⬛"]
 
 # ====================== ГЕНЕРАЦИЯ ======================
 
@@ -414,7 +414,7 @@ def main():
         else:
             hour = now.hour
             minute = now.minute
-            schedule = {7: 30, 11: 0, 15: 30, 19: 0, 23: 0}
+            schedule = {5: 0, 10: 0, 15: 0, 20: 0}
             if hour in schedule and minute == schedule[hour] and hour != last_post_hour:
                 last_post_hour = hour
                 count += 1
